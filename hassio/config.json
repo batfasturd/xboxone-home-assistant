@@ -1,9 +1,9 @@
 {
   "name": "Xbox One Smartglass REST server",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "slug": "xboxone",
   "description": "Control your Xbox One from your Home Assistant device - to be used in combination with xboxone.media_player component",
-  "url": "https://github.com/OpenXbox/xboxone-home-assistant",
+  "url": "https://github.com/batfasturd/xboxone-home-assistant",
   "startup": "services",
   "boot": "auto",
   "arch": [
