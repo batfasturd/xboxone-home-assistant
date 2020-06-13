@@ -22,7 +22,7 @@ RUN apk add --no-cache \
       && if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi \
       && rm -r /root/.cache
 
-RUN pip3 install xbox-smartglass-core==1.1.2
+RUN pip3 install xbox-smartglass-core==1.2.2
 
 COPY run.sh /
 RUN chmod a+x /run.sh
